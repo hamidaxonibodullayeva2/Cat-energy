@@ -3,131 +3,149 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cat energy</title>
-    <link rel="stylesheet" href="style.css">
+    <title>CAR ENERGY</title>
+    <link rel="stylesheet" href="/style/style.css">
 </head>
 <body>
     <header class="header" id="header">
         <div class="container">
             <nav class="nav" id="nav">
-                <div class="nav-container">
-                    <img class="logo" src="logo.svg" alt="logo">
-                    <ul class="nav-menu">
-                        <li class="nav-menu-item"><a class="nav-item-link" href="#main">ГЛАВНАЯ</a></li>
-                        <li class="nav-menu-item"><a class="nav-item-link" href="#catalog">КАТАЛОГ ПРОДУКЦИИ</a></li>
-                        <li class="nav-menu-item"><a class="nav-item-link" href="#program">ПОДБОР ПРОГРАММЫ</a></li>
-                    </ul>
-                </div>
+                <img class="nav-logo" src="./media/logo.svg" alt="logo">
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a class="nav-item-link" href="#main">ГЛАВНАЯ</a></li>
+                    <li class="nav-menu-item"><a class="nav-item-link" href="#catalog">КАТАЛОГ ПРОДУКЦИИ</a></li>
+                    <li class="nav-menu-item"><a class="nav-item-link" href="#program">ПОДБОР ПРОГРАММЫ</a></li>
+                </ul>
             </nav>
             <div class="hero">
-                <h1 class="h1" id="h1">Функциональное <br>
-            питание для котов</h1>
-                <p>Занялся собой? Займись котом!</p>
-                <button class="btn" id="btn">подобрать программу</button>
+                <div class="hero-content">
+                    <h1 class="hero-h1">Функциональное <br>
+                    питание для котов</h1>
+                    <p class="hero-h1-p">Занялся собой? Займись котом!</p>
+                    <button class="hero-btn">подобрать программу</button>
+                    <img class="hero-product" src="/media/product.svg" alt="product">
+                </div>
             </div>
-            <img class="product" src="product.svg" alt="product">
         </div>
     </header>
     <main>
-        <section class="weight container">
-                <div class="cat cat1">
-                    <img src="mini-cat.svg" alt="mini-cat">
-                    <h3>Похудение</h3>
-                    <p>Ваш кот весит больше собаки и почти утратил способность <br>
+        <section class="weight" id="weight">
+            <div class="container">
+                <div class="cat weight-cat1">
+                    <img class="weight-cat1-mini" src="/media/mini-cat.svg" alt="mini-cat">
+                    <h3 class="cat-h3">Похудение</h3>
+                    <p class="weight-cat1-p">Ваш кот весит больше собаки и почти утратил способность <br>
                     лазить по деревьям? Пора на диету! Cat Energy Slim поможет <br>
                     вашему питомцу сбросить лишний вес.</p>
-                    <h4><a href="#каталог slim">каталог slim&nbsp;&nbsp;&nbsp;&nbsp;&#10140;</a></h4>
+                    <a class="cat-a" href="#каталог slim">каталог slim <span><img src="/media/arrow.svg" alt="arrow to rigth"></span></a>
                 </div>
-                <div class="cat cat2">
-                    <img src="big-cat.svg" alt="big-cat">
-                    <h3>НАБОР массы</h3>
-                    <p>Заработать авторитет среди дворовых котов и даже собак?<br>
+                <div class="cat weight-cat2">
+                    <img class="weight-cat2-big" src="/media/big-cat.svg" alt="big-cat">
+                    <h3 class="cat-h3">НАБОР массы</h3>
+                    <p class="weight-cat2-p">Заработать авторитет среди дворовых котов и даже собак?<br>
                     Серия Cat Energy Pro поможет вашему коту нарастить <br>
                     необходимые мышцы!</p>
-                    <h4><a href="#каталог pro">каталог pro&nbsp;&nbsp;&nbsp;&nbsp;&#10140;</a></h4>
+                    <a class="cat-a weight-cat2-a" href="#каталог pro">каталог pro <span><img src="/media/arrow.svg" alt="arrow to right"></span></a>
                 </div>
+            </div>
         </section>  
-        <article class="about container">  
-            <h2>Как это работает</h2>
-            <div class="figures">
-                <figure class="f1">
-                    <img src="leaf.svg" alt="leaf">
-                    <p>Функциональное питание <br>
-                    содержит только полезные <br>
-                    питательные вещества.</p>
-                </figure>
-                <figure class="f2">
-                    <img src="chemical.svg" alt="chemical">
-                    <p>Выпускается в виде порошка, <br>
-                    который нужно лишь залить <br>
-                    кипятком и готово.</p>
-                </figure>
-                <figure class="f3">
-                    <img src="food.svg" alt="food">
-                    <p>Замените один-два приема<br> 
-                    обычной еды на наше<br>
-                    функциональное питание.</p>
-                </figure>
-                <figure class="f4">
-                    <img src="time.svg" alt="time">
-                    <p>Уже через месяц наслаждайтесь <br>
-                    изменениями к лучшему <br>
-                    вашего питомца!</p>
-                </figure>
+        <article class="about" id="about">  
+            <div class="container">
+                <h2 class="about-h2">Как это работает</h2>
+                <div class="about-figures">
+                    <figure class="about-figure1">
+                        <img class="figure-img" src="/media/leaf.svg" alt="leaf">
+                        <p class="figure-p">Функциональное питание <br>
+                        содержит только полезные <br>
+                        питательные вещества.</p>
+                    </figure>
+                    <figure class="about-figure2">
+                        <img class="figure-img" src="/media/chemical.svg" alt="chemical">
+                        <p class="figure-p">Выпускается в виде порошка, <br>
+                        который нужно лишь залить <br>
+                        кипятком и готово.</p>
+                    </figure>
+                    <figure class="about-figure3">
+                        <img class="figure-img" src="/media/food.svg" alt="food">
+                        <p class="figure-p">Замените один-два приема<br> 
+                        обычной еды на наше<br>
+                        функциональное питание.</p>
+                    </figure>
+                    <figure class="about-figure4">
+                        <img class="figure-img" src="/media/time.svg" alt="time">
+                        <p class="figure-p">Уже через месяц наслаждайтесь <br>
+                        изменениями к лучшему <br>
+                        вашего питомца!</p>
+                    </figure>
+                </div>
             </div>
         </article>
-        <section class="example container">
-                <h2>Живой пример</h2>
+        <section class="example" id="example">
+            <div class="container">
+                <h2 class="example-h2">Живой пример</h2>
                 <div class="ex-text">
-                    <p>Борис сбросил 5 кг за 2 месяца, просто заменив свой<br>
+                    <p class="ex-text-p">Борис сбросил 5 кг за 2 месяца, просто заменив свой<br>
                     обычный корм на Cat Energy Slim. Отличный результат <br>
                     без изнуряющих тренировок! При этом он не менял своих <br> 
                     привычек и по-прежнему спит по 16 часов в день. </p>
-                    <div class="f-sets">
-                    <fieldset>
-                        <legend class="legend1">
-                            снижение веса
-                        </legend>
-                        <label>5 КГ</label>
-                    </fieldset>
-                    <fieldset>
-                        <legend class="legend2">
-                            затрачено времени
-                        </legend>
-                        <label>60 ДНЕЙ</label>
-                    </fieldset>
+                    <div class="ex-text-period">
+                        <div class="mass">
+                            <span class="mass-title">
+                                снижение веса
+                            </span>
+                            <p class="mass-data">5 КГ</p>
+                        </div>
+                        <div class="days">
+                            <span class="days-title">
+                                затрачено времени
+                            </span>
+                            <p class="days-data">60 ДНЕЙ</p>
+                        </div>
                     </div>
                     <h4 class="price">Затраты на питание:</h4>
                     <h4 class="price">15 000 руб. </h4>
                 </div>
-                <div class="mix">
-                    <img class="ex-cat1" src="before.png" alt="cat before">
-                    <img class="ex-cat2" src="after.png" alt="cat after">
+                <div class="example-mix">
+                    <img class="ex-mix-cat1" src="/media/before.png" alt="cat before">
+                    <img class="ex-mix-cat2" src="/media/after.png" alt="cat after">
                 </div>
                 <div  class="sizer">
-                    <p>БЫЛО</p>
-                    <img src="sizer.svg" alt="sizer">
-                    <p>СТАЛО</p>
+                    <p class="sizer-p">БЫЛО</p>
+                    <img class="sizer-img" src="/media/sizer.svg" alt="sizer">
+                    <p class="sizer-p">СТАЛО</p>
                 </div>
+            </div>
         </section>
-        <section>
-            <img src="" alt="map">
-            <div>
-                <h4>приглашаем <br>
-                к сотрудничеству<br>
-                дилеров!</h4>
-                <p>ул. Большая <br>
-                Конюшенная, д. 19/8
-                <br>
-                Санкт-Петербург
-                </p>
+        <section class="location" id="location">
+            <iframe class="location-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3937.991502202284!2d30.318853085940187!3d59.93919097068826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5afc31%3A0xa24b26c0d196de71!2sBolshaya%20Konyushennaya%20St%2C%2019%2C%20Sankt-Peterburg%2C%20Russia%2C%20191186!5e0!3m2!1sen!2s!4v1752867838006!5m2!1sen!2s" 
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="container">
+                <div class="address">
+                    <h4 class="address-invitation">приглашаем <br>
+                    к сотрудничеству<br>
+                    дилеров!</h4>
+                    <p class="address-p">ул. Большая <br>
+                    Конюшенная, д. 19/8
+                    <br>
+                    <br>
+                    Санкт-Петербург
+                    </p>
+                </div>
             </div>
         </section>
     </main>
-    <footer>
-        <p><span>CAT</span> Energy</p>
-        <img src="" alt="social media">
-        <img src="" alt="HTML ACADEMDY ICON">
+    <footer class="footer" id="footer">
+        <div class="container">
+            <p class="footer-name"><b>CAT</b> Energy</p>
+            <div class="footer-network">
+                <a class="footer-network-vk" href="https://vk.com/"><img src="/media/vk.svg" alt="vkontakte"></a>
+                <a class="footer-network-ins" href="https://www.instagram.com/"><img src="/media/instagram.svg" alt="instagram"></a>
+                <a class="footer-network-f" href="https://www.facebook.com/"><img src="/media/facebook.svg" alt="facebook"></a>
+            </div>
+            <p class="footer-stamp">HTML Academy
+                <span><img class="footer-stamp-icon" src="/media/html academy.svg" alt="HTML ACADEMDY ICON"></span>
+            </p>
+        </div>
     </footer>
 </body>
 </html>
